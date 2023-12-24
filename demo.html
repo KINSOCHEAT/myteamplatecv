@@ -1,0 +1,47 @@
+
+<div class="demo">
+	<ul class="list_none">
+    	<li><a href="https://1.envato.market/L1kKj" style="background-color:#88C74A" title="Buy Now"><i class="ion-android-cart"></i></a></li>
+        <li><a href="javascript:void(0);" class="demo_icon" title="More Templates" style="background-color:#FF1D4D"><i class="ion-android-apps"></i></a></li>
+    </ul>
+    <div class="demo_list text-center">
+    	<h5 class="font_style1">More HTML Template</h5>
+    	<ul>	
+        	<li><a href="https://bestwebcreator.com/dhyana/" title="Dhyana - Yoga Studio &amp; Meditation"><img src="../../../previews.customer.envatousercontent.com/files/268614395/preview.__large_preview.jpg" alt="Dhyana - Yoga Studio &amp; Meditation"><span>Dhyana - Yoga Studio &amp; Meditation</span></a></li>
+        	<li><a href="https://bestwebcreator.com/organiq/" target="_blank" title="Organiq - Organic Food HTML Template"><img src="../../../previews.customer.envatousercontent.com/files/265515383/Preview.__large_preview.jpg" alt="" /><span>Organiq - Organic Food HTML Template</span></a></li>
+        	<li><a href="https://bestwebcreator.com/cafebiz/demo/" target="_blank" title="Cafe Biz | Restaurant & Food"><img src="../../../previews.customer.envatousercontent.com/files/264286444/Preview.__large_preview.jpg" alt="" /><span>Cafe Biz | Restaurant & Food</span></a></li>
+        	<li><a href="https://bestwebcreator.com/eduglobal/" target="_blank" title="Eduglobal - LMS Education & Courses"><img src="../../../previews.customer.envatousercontent.com/files/264403499/Preview.__large_preview.jpg" alt=""><span>Eduglobal - LMS Education & Courses</span></a></li>
+            <li><a href="https://bestwebcreator.com/anger/" target="_blank" title="Anger - Creative Responsive Multi-Purpose"><img src="../../../previews.customer.envatousercontent.com/files/262587712/Preview.__large_preview.jpg" alt=""><span>Anger - Creative Responsive Multi-Purpose</span></a></li>
+            <li><a href="https://bestwebcreator.com/ATZShop/" target="_blank" title="ATZ Shop - Online Shopping Store"><img src="../../../previews.customer.envatousercontent.com/files/258749574/00_Preview-image.__large_preview.jpg" alt=""><span>ATZ Shop - Online Shopping Store</span></a></li>
+            <li><a href="https://bestwebcreator.com/cryptocash/" target="_blank" title="Cryptocash – ICO Cryptocurrency & ICO Landing Page HTML5 + Dashboard Template"><img src="../../../previews.customer.envatousercontent.com/files/254151235/01_Preview.__large_preview.jpg" alt=""><span>ICO Cryptocurrency Landing Page</span></a></li>
+            <li><a href="https://bestwebcreator.com/cryptoking-landing-page/" target="_blank" title="Cryptoking ICO - Bitcoin & ICO Cryptocurrency Landing Page HTML Template"><img src="../../../previews.customer.envatousercontent.com/files/249437744/01_Preview.__large_preview.jpg" alt=""><span>Bitcoin & ICO Cryptocurrency Landing Page</span></a></li>
+            <li><a href="https://bestwebcreator.com/bitcurrency-demo/" target="_blank" title="Bitcurrency - Bitcoin and Cryptocurrency Landing Page HTML Template"><img src="../../../previews.customer.envatousercontent.com/files/245306307/01_Preview.__large_preview.png" alt=""><span>Bitcoin and Cryptocurrency Landing Page</span></a></li>
+        </ul>
+    </div>
+</div>
+<script>
+
+var removeClass = true;
+$(".demo_icon").click(function () {
+	$("body").toggleClass('switch-open');
+	$(this).toggleClass('switch-active');
+    $(".demo_list").toggleClass('switch-active');
+    removeClass = false;
+});
+
+$(".demo_list,.option_box,.color_icon ").click(function() {
+    removeClass = false;
+});
+
+$("html").click(function () {
+    if (removeClass) {
+        $(".demo_list").removeClass('switch-active');
+		$("body").removeClass('switch-open');
+		$('.demo_icon').removeClass('switch-active');
+		$('.option_box').parents('li').removeClass('switch-active');
+		$('.option_box').removeClass('switch-active');
+    }
+    removeClass = true;
+});
+	
+</script>
